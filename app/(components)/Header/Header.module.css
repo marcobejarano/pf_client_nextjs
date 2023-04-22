@@ -1,0 +1,42 @@
+.header__container {
+	border: 2px solid black;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.header__logo {
+	margin-block: auto;
+	inline-size: 100px;
+	block-size: auto;
+}
+
+.header__links {
+	margin-block: auto;
+	margin-inline: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.header__link {
+	margin-block: auto;
+}
+
+.header__button {
+	block-size: 30px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: lightblue;
+}
+
+.header__button:hover {
+	background-color: orange;
+}
+
+.header__button:active {
+	background-color: green;
+}

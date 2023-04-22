@@ -1,0 +1,21 @@
+:root {
+	--color-background: #FFFFFF;
+	--color-text: #000000;
+}
+
+[data-theme='dark'] {
+	--color-background: #000000;
+	--color-text: #FFFFFF;
+}
+
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url('/fonts/Roboto-Regular.ttf');
+}
+
+body {
+	margin: 30px;
+	font-family: sans-serif, 'Roboto-Regular';
+	background-color: var(--color-background);
+	color: var(--color-text);
+}

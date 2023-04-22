@@ -1,0 +1,41 @@
+.footer__container {
+    border: 2px solid black;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	gap: 20px;
+}
+
+.footer__logo {
+	inline-size: 100px;
+	block-size: auto;
+}
+
+.footer__section_container {
+	padding: 20px;
+	line-height: 24px;
+}
+
+.footer__icons {
+	display: flex;
+	justify-content: center;
+}
+
+.footer__icon {
+	margin: 5px;
+	inline-size: 20px;
+	block-size: auto;
+}
+
+.footer__section_title {
+	margin-block: 10px;
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+}
+
+.footer__section_subtitle {
+	display: flex;
+	justify-content: center;
+}
