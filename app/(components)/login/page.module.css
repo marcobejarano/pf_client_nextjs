@@ -1,0 +1,38 @@
+.login__container {
+	display: flex;
+	justify-content: center;
+}
+
+.login__form_container {
+	margin: 30px;
+	border: 2px solid black;
+	padding-block: 20px;
+	padding-inline: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+.login__image {
+	inline-size: 100px;
+	block-size: auto;
+}
+
+.login__formGroup {
+	display: flex;
+	flex-direction: column;
+}
+
+.login__formControl_label {
+	text-align: center;
+}
+
+.login__formControl_input {
+	border-radius: 5px;
+}
+
+.login__formGroup_secondary {
+	display: flex;
+	flex-direction: column;
+}
